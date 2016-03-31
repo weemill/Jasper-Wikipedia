@@ -10,7 +10,7 @@ PRIORITY = 1
 
 def handle(text, mic, profile):
 
-		"""
+        """
         	Responds to user-input, typically speech text, by relaying the
         	entry from Wikipedia.
 
@@ -19,7 +19,7 @@ def handle(text, mic, profile):
         	mic -- used to interact with the user (for both input and output)
         	profile -- contains information related to the user (e.g., phone
                    number)
-    	"""
+        """
 
         mic.say("Okay, what would you like me to look up?")
 
